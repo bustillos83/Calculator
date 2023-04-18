@@ -81,6 +81,14 @@ button{
 button:hover{
   filter: brightness(110%);
 }
+
+button:active{
+  transform: translateY(1px);
+}
+
+button:focus{
+  outline: none;
+}
 .operator{
   background: grey;
   color: white;
@@ -100,4 +108,11 @@ button:hover{
   grid-column: -2;
   grid-row: 2 /span 4;
   background: rgb(64, 189, 64);
+}
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px){
+  .calculator {
+    width: 95%;
+  }
 }
