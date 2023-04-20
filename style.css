@@ -9,8 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
-  /* background: linear-gradient(to right, #373b44, #4286f4); */
+  background: linear-gradient(to right, #373b44, #4286f4);
 }
 
 .calculator {
